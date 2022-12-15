@@ -44,6 +44,6 @@ build-aseprite:
         run: 7z -tzip a Aseprite-v1.2.40.zip *
       - name: Upload release
         uses: actions/upload-artifact@v3
-          with:
-            name: Aseprite-v1.2.40
-            path: aseprite/build/bin/Aseprite-v1.2.40.zip
+        with:
+          name: Aseprite-v1.2.40
+          path: aseprite/build/bin/Aseprite-v1.2.40.zip
